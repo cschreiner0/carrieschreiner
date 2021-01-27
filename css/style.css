@@ -1,8 +1,19 @@
 body {
-  background: #00ffbf;
   text-align: center;
 }
 img {
   height: 500px;
   width: auto;
+}
+
+.bg0 {
+  background: coral;
+}
+
+.bg1 {
+  background: #00ffbf;
+}
+
+.bg2 {
+  background: blueviolet;
 }
