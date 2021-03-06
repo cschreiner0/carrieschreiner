@@ -12,3 +12,9 @@ let pageBackgound = document.querySelector("body");
 
 //Set class name from stored values
 pageBackgound.className = backgrounds[numRand];
+
+//Define Lightbox Gallery
+lightGallery(document.getElementById("gallery"));
+
+//Use Gallery
+lightGallery(gallery);

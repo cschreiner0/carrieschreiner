@@ -17,3 +17,12 @@ img {
 .bg2 {
   background: blueviolet;
 }
+
+.lg {
+  border: 2px solid lightblue;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  justify-content: center;
+}
