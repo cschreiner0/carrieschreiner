@@ -1,3 +1,4 @@
+//If everytihing is okay, console will say OK
 console.log("OK");
 
 //store background classes
@@ -13,10 +14,5 @@ let pageBackgound = document.querySelector("body");
 //Set class name from stored values
 pageBackgound.className = backgrounds[numRand];
 
-//Define Lightbox Gallery
-lightGallery(document.getElementById("gallery"), {
-  thumbnail: true
-});
-
-//Use Gallery
-lightGallery("gallery");
+//Use Lightbox Gallery Library
+lightGallery(document.getElementById("gallery"));

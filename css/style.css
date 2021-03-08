@@ -74,3 +74,13 @@ img {
   border-radius: 10px;
   box-sizing: border-box;
 }
+
+div.lg-item,
+div.lg-loaded,
+div.lg-current,
+div.lg-complete {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
