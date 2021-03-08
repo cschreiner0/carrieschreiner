@@ -14,7 +14,9 @@ let pageBackgound = document.querySelector("body");
 pageBackgound.className = backgrounds[numRand];
 
 //Define Lightbox Gallery
-lightGallery(document.getElementById("gallery"));
+lightGallery(document.getElementById("gallery"), {
+  thumbnail: true
+});
 
 //Use Gallery
-lightGallery(gallery);
+lightGallery("gallery");
