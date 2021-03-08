@@ -1,21 +1,70 @@
+/* :root is equivalent to `html` with a higher specificity */
+
+/* Variables defined here
+  Style Guide in Code!!!
+*/
+:root {
+  --scary-color: #03211c;
+  --fun-color: blueviolet;
+  --light-mode: #ddd;
+  --dark-mode: #333;
+}
+
+h1 {
+  color: var(--scary-color);
+}
+
 body {
   text-align: center;
 }
+
 img {
   height: 500px;
   width: auto;
 }
 
 .bg0 {
-  background: coral;
+  background: rgb(252, 252, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 252, 238, 1) 0%,
+    rgba(236, 255, 239, 1) 48%,
+    rgba(237, 252, 255, 1) 100%
+  );
 }
 
 .bg1 {
-  background: #00ffbf;
+  background: rgb(252, 252, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 252, 238, 1) 0%,
+    rgba(249, 236, 255, 1) 48%,
+    rgba(252, 245, 240, 1) 81%,
+    rgba(233, 232, 255, 1) 100%
+  );
 }
 
 .bg2 {
-  background: blueviolet;
+  background: rgb(255, 248, 236);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 248, 236, 1) 10%,
+    rgba(255, 241, 241, 1) 37%,
+    rgba(255, 241, 231, 1) 68%,
+    rgba(252, 252, 240, 1) 87%
+  );
+}
+
+.bg3 {
+  background: rgb(236, 255, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(236, 255, 254, 1) 10%,
+    rgba(249, 241, 255, 1) 37%,
+    rgba(232, 235, 250, 1) 64%,
+    rgba(240, 247, 252, 1) 79%,
+    rgba(240, 247, 252, 1) 99%
+  );
 }
 
 .lg {
