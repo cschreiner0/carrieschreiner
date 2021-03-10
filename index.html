@@ -5,12 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-<link rel="stylesheet" href="style.css">
-
-<!--Add in lightbox gallery-->
-<link rel="stylesheet" href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css">
-
-    <script src="main.js"></script>
+    <!--Add in lightbox gallery-->
+    <link rel="stylesheet" href="css/lightgallery.min.css">
+    <link rel="stylesheet" href="css/lg-transitions.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Carrie Schreiner</title>
 
     <!-- Favicons -->
@@ -73,7 +71,19 @@
       </p>
     </form>
 
+<!-- Captions-->
+<div class="image-caption" style="display: none;">
+  <h1>Canvas Image</h1>
+</div>
+
+</div>
 <!-- Lightbox Gallery-->
+<div id="portfolio">
+    <a href="/img/CanvasUA.png" data-sub-html=".image-caption">
+      <img class="lg" src="/img/CanvasUA.png" />
+  </a>
+</div>
+
 <div id="gallery">
   <a href="/img/CanvasUA.png">
       <img class="lg" src="/img/CanvasUA.png" />
@@ -100,8 +110,19 @@
 </a>
 </div>
 
+<div id="video">
+<a href="https://vimeo.com/476062378" data-poster="img/placeholder">
+  <img src="/img/placeholder" alt="Ande">
+</div>
+
     <!-- Added in Generators-->
-   <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+    <!--Lightbox Gallery Library core-->
+   <script src="js/lightgallery.min.js"></script>
+   <!-- Lightbox Gallery Library plugins-->
+   <script src="js/lg-thumbnail.min.js"></script>
+   <script src="js/lg-fullscreen.min.js"></script>
+   <script src="js/lg-video.min.js"></script>
+   <!--Our scripts-->
    <script src="js/scripts.js"></script>
   </body>
 </html>

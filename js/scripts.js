@@ -16,3 +16,11 @@ pageBackgound.className = backgrounds[numRand];
 
 //Use Lightbox Gallery Library
 lightGallery(document.getElementById("gallery"));
+
+const portfolio = document.getElementById("porfolio");
+const video = document.getByElementID("video");
+
+lightGallery(portfolio, {
+  mode: "lg-zoom-in-big",
+  download: false
+});
