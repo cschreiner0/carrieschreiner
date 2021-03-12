@@ -15,12 +15,11 @@ let pageBackgound = document.querySelector("body");
 pageBackgound.className = backgrounds[numRand];
 
 //Use Lightbox Gallery Library
-lightGallery(document.getElementById("gallery"));
+//lightGallery(document.getElementById("gallery"));
 
-const portfolio = document.getElementById("porfolio");
-const video = document.getByElementID("video");
+const portfolio = document.querySelector("#portfolio");
 
 lightGallery(portfolio, {
-  mode: "lg-zoom-in-big",
+  selector: "a",
   download: false
 });
