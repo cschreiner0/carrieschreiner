@@ -17,6 +17,8 @@ pageBackgound.className = backgrounds[numRand];
 //Use Lightbox Gallery Library
 //lightGallery(document.getElementById("gallery"));
 
+lightGallery(document.getElementById("captions"));
+
 const portfolio = document.querySelector("#portfolio");
 lightGallery(portfolio, {
   selector: "a",
