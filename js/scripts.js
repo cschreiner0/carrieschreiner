@@ -18,7 +18,6 @@ pageBackgound.className = backgrounds[numRand];
 //lightGallery(document.getElementById("gallery"));
 
 const portfolio = document.querySelector("#portfolio");
-
 lightGallery(portfolio, {
   selector: "a",
   download: false
