@@ -1,10 +1,24 @@
+/*Go get Overpass Black 900 font for h1*/
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@900&display=swap');
+
+/*Go get Syne Regular 400 font for h2*/
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
+
+/*Go get Syne Regular 400 font for h3*/
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+/*Go get Nunito Regular 400 font for h3*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+</style>
+
 /* :root is equivalent to `html` with a higher specificity */
 
 /* Variables defined here
   Style Guide in Code!!!
 */
 :root {
-  --scary-color: #03211c;
+  --scary-color: #238bc7;
   --fun-color: blueviolet;
   --light-mode: #ddd;
   --dark-mode: #333;
@@ -12,9 +26,28 @@
 
 h1 {
   color: var(--scary-color);
+  font-family: 'Overpass', sans-serif;
 }
-h2 {
+
+h2{
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+}
+
+h3 {
   margin: 0;
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+figcaption{
+  font-family: 'Nunito Sans', sans-serif;
+  weight: 400;
+  padding: 5px;
 }
 
 #me {
