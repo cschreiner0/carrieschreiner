@@ -21,6 +21,6 @@ lightGallery(document.getElementById("captions"));
 
 const portfolio = document.querySelector("#portfolio");
 lightGallery(portfolio, {
-  selector: "a",
+  selector: ".lglink",
   download: false
 });
