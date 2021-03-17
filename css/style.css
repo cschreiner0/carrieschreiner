@@ -309,42 +309,34 @@ div.lg-complete {
 /*width resizing for p*/
 
 @media screen and (min-width: 200px) {
-  p {
+  header p {
     width: 100px;
   }
 }
 @media screen and (min-width: 300px) {
-  p {
-    width: 220px;
+  header p {
+    width: 180px;
   }
 }
-@media screen and (min-width: 650px) {
-  p {
+@media screen and (min-width: 700px) {
+  header p {
     width: 300px;
   }
 }
 @media screen and (min-width: 1000px) {
-  p {
+  header p {
     width: 420px;
   }
 }
 
 @media screen and (min-width: 1500px) {
-  p {
+  header p {
     width: 620px;
   }
 }
 
 /*image resizing for <main> section*/
-@media screen and (min-width: 100px) {
-  #me {
-    width: 100px;
-  }
 
-@media screen and (min-width: 150px) {
-  #me {
-    width: 130px;
-  }
 
 @media screen and (min-width: 300px) {
   #me {
@@ -356,12 +348,22 @@ div.lg-complete {
       width: 140px;
     }
 
+    @media screen and (min-width: 465px) {
+      #me {
+        width: 168px;
+      }
+    }
+
 @media screen and (min-width: 520px) {
   #me {
-    width: 170px;
+    width: 185px;
   }
 }
-
+@media screen and (min-width: 600px) {
+  #me {
+    width: 205px;
+  }
+}
 @media screen and (min-width: 700px) {
   #me {
     width: 180px;
