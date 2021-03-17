@@ -82,7 +82,6 @@ nav {
 }
 
 .nav {
-  padding: 20px;
   justify-content: left;
   color: #FFD977;
   font-family: 'Syne', sans-serif;
@@ -93,7 +92,7 @@ nav {
 nav li{
   list-style-type: none;
   display: inline-block;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 5px 5px 5px;
 }
 
 header {
@@ -105,8 +104,6 @@ header {
   padding-left: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
-  /*min-height: 300px;*/
-  /*font-size: calc(12px + (30 - 12) * ((100vw - 300px) / (1600 - 300)));*/
   position: relative;
   z-index: 0;
 }
@@ -133,9 +130,13 @@ header h4 {
   /*font-size: 21px;*/
 }
 
+header p{
+  width: 180px;
+}
+
 #me {
-  width: auto;
-  height: 500px;
+  width: 100%;
+  height: auto;
 }
 
 body {
@@ -164,6 +165,18 @@ figure {
 
 figcaption {
   text-align: left;
+}
+
+figure a{
+  color: blue;
+}
+
+figure a:hover{
+  color: green;
+}
+
+figure a:visited{
+color: purple;
 }
 
 .contact {
@@ -294,6 +307,12 @@ div.lg-complete {
 }
 
 /*width resizing for p*/
+
+@media screen and (min-width: 200px) {
+  p {
+    width: 100px;
+  }
+}
 @media screen and (min-width: 300px) {
   p {
     width: 220px;
@@ -317,6 +336,11 @@ div.lg-complete {
 }
 
 /*image resizing for <main> section*/
+@media screen and (min-width: 100px) {
+  #me {
+    width: 100px;
+  }
+
 @media screen and (min-width: 150px) {
   #me {
     width: 130px;
@@ -324,12 +348,12 @@ div.lg-complete {
 
 @media screen and (min-width: 300px) {
   #me {
-    width: 150px;
+    width: 130px;
   }
 
   @media screen and (min-width: 410px) {
     #me {
-      width: 160px;
+      width: 140px;
     }
 
 @media screen and (min-width: 520px) {
